@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IR System Evaluation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        ol {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>IR System Evaluation</h1>
+
+    <p>
+        <strong>1. (4 points)</strong> Suppose that an IR system contains only 1000 documents numbered d1 to d1000. A query is known to generate 27 relevant documents as listed below:
+    </p>
+
+    <ol>
+        <li>d1, d5, d7, d10, d88, d151, d200, d211, d250, d300, d399, d401, d405, d450, d473, d500, d501, d530, d545, d590, d600, d735, d700, d720, d800, d888, d900</li>
+    </ol>
+
+    <p>
+        Two very different IR systems are used to retrieve ranked documents for this query. Each system only returns the top 10 ranked documents in the following order of ranking:
+    </p>
+
+    <ul>
+        <li><strong>System 1:</strong> d122, d211, d150, d88, d37, d1, d501, d800, d201, d5</li>
+        <li><strong>System 2:</strong> d10, d6, d700, d250, d88, d600, d59, d422, d500, d333</li>
+    </ul>
+
+    <p>
+        Answer the following and show your work:
+    </p>
+
+    <ul>
+        <li>Plot the Precision and the Recall graphs for each system as a function of the number of documents returned (for 1 document returned, 2 documents returned, etc).</li>
+        <li>Plot the Precision versus Recall for systems 1 and 2 using these query results as a function of the number of documents returned. Note that n1 is the value of precision and recall for the first document, n2 for the 2 documents.</li>
+        <li>Calculate the F1 score for each.</li>
+        <li>Which IR system is better? Justify your answer.</li>
+    </ul>
+</body>
+</html>
